@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { title } from "process";
+// import { title } from "process";
 export async function GET(req, res) {
   const client = await MongoClient.connect(
     "mongodb+srv://Jijnashu:Jijnashu99@cluster0.6ifdblb.mongodb.net/?retryWrites=true&w=majority"
